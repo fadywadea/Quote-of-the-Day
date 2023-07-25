@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  background: url(https://drscdn.500px.org/photo/217586741/m%3D900/v2?sig=42fe957f213dd5120cdf2dded681983fc2ac89619a4b9aafaded2a7e97415ebf);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 80px;
+  color: wheat;
+}
+
+button {
+  width: 250px;
+  height: 80px;
+  background-color: #f15f38;
+  color: white;
+  border-radius: 50px;
+  border: #f15f38;
+  transition: .6s;
+  margin: 20px;
+}
+
+p {
+  margin: 20px;
+  font-size: 35px;
+  color: white;
+}
+
+button:hover {
+  background-color: #ffd17f;
+  color: black;
+  border: #ffd17f;
+}
