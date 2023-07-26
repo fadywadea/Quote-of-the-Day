@@ -12,24 +12,29 @@ section {
 
 h1 {
   font-size: 80px;
-  color: wheat;
+  color: #ffd17f;
+  padding-top: 10px;
+  font-weight: 800;
 }
 
 button {
-  width: 250px;
-  height: 80px;
+  width: 200px;
+  height: 70px;
   background-color: #f15f38;
   color: white;
   border-radius: 50px;
   border: #f15f38;
   transition: .6s;
-  margin: 20px;
+  margin: 15px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 p {
-  margin: 20px;
+  margin: 15px;
   font-size: 35px;
   color: white;
+  font-weight: 300;
 }
 
 button:hover {

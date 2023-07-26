@@ -33,11 +33,11 @@ var arrayOfQuotes = [
 function randomQuote() {
   var quoteIndex = Math.floor(Math.random() * arrayOfQuotes.length);
   var oldQuote = document.getElementById("quoteOutput").innerText;
-  var newQuote = `"${arrayOfQuotes[quoteIndex].quote}"`;
+  var newQuote = `“${arrayOfQuotes[quoteIndex].quote}”`;
   if (oldQuote == newQuote) {
     randomQuote();
   } else {
     document.getElementById("quoteOutput").innerText = newQuote;
-    document.getElementById("authorOutput").innerText = `"${arrayOfQuotes[quoteIndex].author}"`;
+    document.getElementById("authorOutput").innerText = `${arrayOfQuotes[quoteIndex].author}`;
   }
 };
